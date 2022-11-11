@@ -1,0 +1,35 @@
+{
+  "name": "cpplexerjs",
+  "version": "1.0.0",
+  "description": "A lexer that parses C++ into JSON structure",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx ts-node --esm cli.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GMasterHD/CPPLexerJS.git"
+  },
+  "keywords": [
+    "lexer",
+    "cpp"
+  ],
+  "author": "GMasterHD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GMasterHD/CPPLexerJS/issues"
+  },
+  "homepage": "https://github.com/GMasterHD/LexerJS#readme",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.5.5",
+    "@types/gradient-string": "^1.1.2",
+    "@types/node": "^18.11.9",
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
